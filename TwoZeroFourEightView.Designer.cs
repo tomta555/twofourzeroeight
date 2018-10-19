@@ -48,14 +48,14 @@
             this.btnRight = new System.Windows.Forms.Button();
             this.btnDown = new System.Windows.Forms.Button();
             this.btnUp = new System.Windows.Forms.Button();
-            this.ScoreBoard = new System.Windows.Forms.TextBox();
+            this.ScoreBoard = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl00
             // 
             this.lbl00.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl00.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl00.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl00.ForeColor = System.Drawing.Color.Black;
             this.lbl00.Location = new System.Drawing.Point(0, 0);
             this.lbl00.Margin = new System.Windows.Forms.Padding(0);
             this.lbl00.Name = "lbl00";
@@ -68,7 +68,7 @@
             // 
             this.lbl01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl01.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl01.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl01.ForeColor = System.Drawing.Color.Black;
             this.lbl01.Location = new System.Drawing.Point(100, 0);
             this.lbl01.Margin = new System.Windows.Forms.Padding(0);
             this.lbl01.Name = "lbl01";
@@ -81,7 +81,7 @@
             // 
             this.lbl02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl02.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl02.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl02.ForeColor = System.Drawing.Color.Black;
             this.lbl02.Location = new System.Drawing.Point(200, 0);
             this.lbl02.Margin = new System.Windows.Forms.Padding(0);
             this.lbl02.Name = "lbl02";
@@ -94,7 +94,7 @@
             // 
             this.lbl03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl03.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl03.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl03.ForeColor = System.Drawing.Color.Black;
             this.lbl03.Location = new System.Drawing.Point(300, 0);
             this.lbl03.Margin = new System.Windows.Forms.Padding(0);
             this.lbl03.Name = "lbl03";
@@ -107,7 +107,7 @@
             // 
             this.lbl13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl13.ForeColor = System.Drawing.Color.Black;
             this.lbl13.Location = new System.Drawing.Point(300, 92);
             this.lbl13.Margin = new System.Windows.Forms.Padding(0);
             this.lbl13.Name = "lbl13";
@@ -120,7 +120,7 @@
             // 
             this.lbl12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl12.ForeColor = System.Drawing.Color.Black;
             this.lbl12.Location = new System.Drawing.Point(200, 92);
             this.lbl12.Margin = new System.Windows.Forms.Padding(0);
             this.lbl12.Name = "lbl12";
@@ -133,7 +133,7 @@
             // 
             this.lbl11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl11.ForeColor = System.Drawing.Color.Black;
             this.lbl11.Location = new System.Drawing.Point(100, 92);
             this.lbl11.Margin = new System.Windows.Forms.Padding(0);
             this.lbl11.Name = "lbl11";
@@ -146,7 +146,7 @@
             // 
             this.lbl10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl10.ForeColor = System.Drawing.Color.Black;
             this.lbl10.Location = new System.Drawing.Point(0, 92);
             this.lbl10.Margin = new System.Windows.Forms.Padding(0);
             this.lbl10.Name = "lbl10";
@@ -159,7 +159,7 @@
             // 
             this.lbl23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl23.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl23.ForeColor = System.Drawing.Color.Black;
             this.lbl23.Location = new System.Drawing.Point(300, 185);
             this.lbl23.Margin = new System.Windows.Forms.Padding(0);
             this.lbl23.Name = "lbl23";
@@ -172,7 +172,7 @@
             // 
             this.lbl22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl22.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl22.ForeColor = System.Drawing.Color.Black;
             this.lbl22.Location = new System.Drawing.Point(200, 185);
             this.lbl22.Margin = new System.Windows.Forms.Padding(0);
             this.lbl22.Name = "lbl22";
@@ -185,7 +185,7 @@
             // 
             this.lbl21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl21.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl21.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl21.ForeColor = System.Drawing.Color.Black;
             this.lbl21.Location = new System.Drawing.Point(100, 185);
             this.lbl21.Margin = new System.Windows.Forms.Padding(0);
             this.lbl21.Name = "lbl21";
@@ -198,7 +198,7 @@
             // 
             this.lbl20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl20.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl20.ForeColor = System.Drawing.Color.Black;
             this.lbl20.Location = new System.Drawing.Point(0, 185);
             this.lbl20.Margin = new System.Windows.Forms.Padding(0);
             this.lbl20.Name = "lbl20";
@@ -211,7 +211,7 @@
             // 
             this.lbl33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl33.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl33.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl33.ForeColor = System.Drawing.Color.Black;
             this.lbl33.Location = new System.Drawing.Point(300, 277);
             this.lbl33.Margin = new System.Windows.Forms.Padding(0);
             this.lbl33.Name = "lbl33";
@@ -224,7 +224,7 @@
             // 
             this.lbl32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl32.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl32.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl32.ForeColor = System.Drawing.Color.Black;
             this.lbl32.Location = new System.Drawing.Point(200, 277);
             this.lbl32.Margin = new System.Windows.Forms.Padding(0);
             this.lbl32.Name = "lbl32";
@@ -237,7 +237,7 @@
             // 
             this.lbl31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl31.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl31.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl31.ForeColor = System.Drawing.Color.Black;
             this.lbl31.Location = new System.Drawing.Point(100, 277);
             this.lbl31.Margin = new System.Windows.Forms.Padding(0);
             this.lbl31.Name = "lbl31";
@@ -250,7 +250,7 @@
             // 
             this.lbl30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl30.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lbl30.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl30.ForeColor = System.Drawing.Color.Black;
             this.lbl30.Location = new System.Drawing.Point(0, 277);
             this.lbl30.Margin = new System.Windows.Forms.Padding(0);
             this.lbl30.Name = "lbl30";
@@ -261,7 +261,7 @@
             // 
             // btnLeft
             // 
-            this.btnLeft.Location = new System.Drawing.Point(113, 414);
+            this.btnLeft.Location = new System.Drawing.Point(200, 416);
             this.btnLeft.Margin = new System.Windows.Forms.Padding(4);
             this.btnLeft.Name = "btnLeft";
             this.btnLeft.Size = new System.Drawing.Size(71, 55);
@@ -273,7 +273,7 @@
             // 
             // btnRight
             // 
-            this.btnRight.Location = new System.Drawing.Point(260, 414);
+            this.btnRight.Location = new System.Drawing.Point(347, 416);
             this.btnRight.Margin = new System.Windows.Forms.Padding(4);
             this.btnRight.Name = "btnRight";
             this.btnRight.Size = new System.Drawing.Size(71, 55);
@@ -285,7 +285,7 @@
             // 
             // btnDown
             // 
-            this.btnDown.Location = new System.Drawing.Point(187, 457);
+            this.btnDown.Location = new System.Drawing.Point(274, 459);
             this.btnDown.Margin = new System.Windows.Forms.Padding(4);
             this.btnDown.Name = "btnDown";
             this.btnDown.Size = new System.Drawing.Size(71, 55);
@@ -297,7 +297,7 @@
             // 
             // btnUp
             // 
-            this.btnUp.Location = new System.Drawing.Point(187, 378);
+            this.btnUp.Location = new System.Drawing.Point(274, 380);
             this.btnUp.Margin = new System.Windows.Forms.Padding(4);
             this.btnUp.Name = "btnUp";
             this.btnUp.Size = new System.Drawing.Size(71, 55);
@@ -309,11 +309,13 @@
             // 
             // ScoreBoard
             // 
-            this.ScoreBoard.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.ScoreBoard.Location = new System.Drawing.Point(348, 395);
+            this.ScoreBoard.AutoSize = true;
+            this.ScoreBoard.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.ScoreBoard.Location = new System.Drawing.Point(13, 419);
             this.ScoreBoard.Name = "ScoreBoard";
-            this.ScoreBoard.Size = new System.Drawing.Size(81, 38);
-            this.ScoreBoard.TabIndex = 20;
+            this.ScoreBoard.Size = new System.Drawing.Size(100, 31);
+            this.ScoreBoard.TabIndex = 21;
+            this.ScoreBoard.Text = "Score :";
             // 
             // TwoZeroFourEightView
             // 
@@ -371,7 +373,7 @@
         private System.Windows.Forms.Button btnRight;
         private System.Windows.Forms.Button btnDown;
         private System.Windows.Forms.Button btnUp;
-        private System.Windows.Forms.TextBox ScoreBoard;
+        private System.Windows.Forms.Label ScoreBoard;
     }
 }
 

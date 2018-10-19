@@ -36,18 +36,14 @@ namespace twozerofoureight
             
             if (first)
             {
-                ScoreBoard.Text = "0";
+                ScoreBoard.Text = "Score : 0";
                 first = false;
             }
             else
             {
-                ScoreBoard.Text = ((TwoZeroFourEightModel)model).ShowScore().ToString();
-                ScoreBoard.ReadOnly = true; //Make ScoreBoard Uneditable
+                ScoreBoard.Text = "Score : " + ((TwoZeroFourEightModel)model).ShowScore().ToString();
+                
             }
-
-
-
-
             if (((TwoZeroFourEightModel)m).isOver) GameOver();
                      
         }
@@ -63,19 +59,28 @@ namespace twozerofoureight
             switch (i)
             {
                 case 0:
-                    l.BackColor = Color.Gray;
+                    l.BackColor = Color.FromArgb(186, 225, 255);
                     break;
                 case 2:
-                    l.BackColor = Color.DarkGray;
+                    l.BackColor = Color.FromArgb(186, 255, 201);
                     break;
                 case 4:
-                    l.BackColor = Color.Orange;
+                    l.BackColor = Color.FromArgb(255, 255, 186);
                     break;
                 case 8:
-                    l.BackColor = Color.Red;
+                    l.BackColor = Color.FromArgb(255, 223, 186);
+                    break;
+                case 16:
+                    l.BackColor = Color.FromArgb(255, 179, 186);
+                    break;
+                case 32:
+                    l.BackColor = Color.FromArgb(255, 179, 186);
+                    break;
+                case 64:
+                    l.BackColor = Color.Magenta;
                     break;
                 default:
-                    l.BackColor = Color.Green;
+                    l.BackColor = Color.Chartreuse;
                     break;
             }
         }
