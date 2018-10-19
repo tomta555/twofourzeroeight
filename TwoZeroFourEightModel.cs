@@ -298,27 +298,34 @@ namespace twozerofoureight
         public void IsGameOver()
         {
             int count = 0;
-            for (int x = 0; x < 3; x++)
+            for (int x = 0; x < 4; x++)
             {
                 for (int y = 0; y < 4; y++)
                 {
-                    if (y != 3)
+                    if (x != 3 && y != 3)
                     {
                         if (board[x, y] != board[x, y + 1] && board[x, y] != board[x + 1, y])
                         {
                             count++;
                         }
                     }
-                    else 
+                    else if(x != 3 && y == 3)
                     {
                         if (board[x, y] != board[x + 1, y])
                         {
                             count++;
                         }
                     }
+                    else if(x == 3 && y != 3)
+                    {
+                        if(board[x, y] != board[x, y + 1])
+                        {
+                            count++;
+                        }
+                    }
                 }
             }
-            if (count == 12)
+            if (count == 15)
             {
                 isOver = true;
             }
